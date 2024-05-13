@@ -18,6 +18,15 @@ angka::angka(int i) {
     isiData();
 }
 
+angka::~angka() {
+    cout << endl;
+    cetakData();
+    delete[]arr;
+    cout << "Alamat Array sudah Dilepaskan" << endl;
+}
+
+
+
 int main()
 {
     
